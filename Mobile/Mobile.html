@@ -24,9 +24,8 @@
 
     .text {
         text-align: center;
-        color: #39395f;
+        color: #183a1d;
         font-size: medium;
-        font-weight: bold;
     }
 
     .topnav {
@@ -74,14 +73,36 @@
             text-align: left;
         }
     }
+    .vertical-menu {
+        text-align: center;
+        width: 200px;
+        padding-left: 600px;
+    }
+
+    .vertical-menu a {
+        background-color: #416a59;
+        color: antiquewhite;
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+    }
+
+    .vertical-menu a:hover {
+        background-color: #ccc;
+    }
+
+    .vertical-menu a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
 </style>
 
 <body>
 
 <div class="topnav" id="myTopnav">
     <a class="Inicio" href="../index.html">Inicio</a>
-    <a href="../Backend/Backend.html">Backend</a>
-    <a href="Backoffice.html">Backoffice</a>
+    <a href="Backend.html">Backend</a>
+    <a href="../Principal/Backoffice.html">Backoffice</a>
     <a href="../Mobile/Mobile.html">Mobile</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
@@ -89,17 +110,45 @@
 </div>
 
 <div class="titlePrin">
-    <h1>BACKOFFICE</h1>
-</div>
-
-<div class="titleSec">
-    <h2></h2>
+    <h1>MOBILE</h1>
 </div>
 
 <div class="text">
-    <p></p>
+    <p style="font-weight: bold">En esta sección se incluye la documentación referida a la aplicación mobile.</p>
 </div>
 
+<div class="titleSec">
+    <h2>Pantallas comúnes a todo tipo de usuario</h2>
+</div>
+
+<div class="titleSec">
+    <h2>Login</h2>
+</div>
+
+<div class="text">
+    <p>Todo usuario debe poder registrarse o iniciar sesión</p>
+    <img src="../Images/login.jpg">
+</div>
+
+<div class="titleSec">
+    <h2>Perfiles</h2>
+</div>
+
+<div class="text">
+    <p>Todos los usuarios pueden visualizar los perfiles de otros usuarios.</p>
+    <img src="../Images/verPerfiles.jpg">
+</div>
+
+
+<div class="titleSec">
+    <h2>Pantallas por tipo de usuario</h2>
+</div>
+
+<div class="vertical-menu">
+    <a href="Emprendedor.html">Emprendedor</a>
+    <a href="Patrocinador.html">Patrocinador</a>
+    <a href="Veedor.html">Veedor</a>
+</div>
 
 <script>
     function myFunction() {

@@ -24,8 +24,18 @@
 
     .text {
         text-align: center;
-        color: #39395f;
+        color: #416a59;
         font-size: medium;
+        font-weight: bold;
+    }
+
+    .sidebar {
+        padding-left: 580px;
+        color: #183a1d;
+    }
+
+    .sidebutton{
+        color: #183a1d;
     }
 
     .topnav {
@@ -80,23 +90,50 @@
 <div class="topnav" id="myTopnav">
     <a class="Inicio" href="../index.html">Inicio</a>
     <a href="../Backend/Backend.html">Backend</a>
-    <a href="Backoffice.html">Backoffice</a>
-    <a href="Mobile.html">Mobile</a>
+    <a href="../Principal/Backoffice.html">Backoffice</a>
+    <a href="../Mobile/Mobile.html">Mobile</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
 </div>
 
+<div class="w3-sidebar w3-bar-block sidebar" style="width:25%;right:0" >
+    <h1 class="w3-bar-item">Pantallas</h1>
+    <a href="Emprendedor.html" class="w3-bar-item w3-button sidebutton">Emprendedor</a>
+    <a href="Patrocinador.html" class="w3-bar-item w3-button sidebutton">Patrocinador</a>
+    <a href="Veedor.html" class="w3-bar-item w3-button sidebutton">Veedor</a>
+</div>
+
 <div class="titlePrin">
-    <h1>MOBILE</h1>
+    <h1>Emprendedor</h1>
 </div>
 
 <div class="titleSec">
-    <h2></h2>
+    <h2>Proyecto</h2>
 </div>
 
 <div class="text">
-    <p></p>
+    <p>Una vez creado el proyecto, se puede invitar a un veedor.</p>
+    <img src="../Images/agregarVeedor.jpg">
+</div>
+
+<div class="text">
+    <p>Se pueden editar algunos campos del proyecto como el título, los hashtags y la descripción.</p>
+    <img src="../Images/editarProyecto.jpg">
+</div>
+
+<div class="text">
+    <p>También se pueden buscar otros proyectos</p>
+    <img src="../Images/buscadorProyectosEmprendedor.jpg">
+</div>
+
+<div class="titleSec">
+    <h2>Wallet</h2>
+</div>
+
+<div class="text">
+    <p>Aquí es en donde se puede retirar el dinero juntado por cada etapa.</a></p>
+    <img src="../Images/wallet.jpg">
 </div>
 
 <script>
