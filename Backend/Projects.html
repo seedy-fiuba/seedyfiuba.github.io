@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 
 <style>
@@ -13,11 +13,8 @@
         background-color: #f5eec2 }
 
     .titlePrin{
-        margin: 90px 500px;
-        line-height: 70px;
-        padding-left: 100px;
-        background: antiquewhite;
-        border-radius: 25px;
+        text-align: center;
+        color: #416a59;
         font-weight: bold;
     }
 
@@ -27,8 +24,17 @@
 
     .text {
         text-align: center;
-        color: #416a59;
+        color: #39395f;
         font-size: medium;
+    }
+
+    .sidebar {
+        padding-left: 580px;
+        color: #183a1d;
+    }
+
+    .sidebutton{
+        color: #183a1d;
     }
 
     .topnav {
@@ -81,47 +87,58 @@
 <body>
 
 <div class="topnav" id="myTopnav">
-    <a class="Inicio" href="index.html">Inicio</a>
-    <a href="Backend/Backend.html">Backend</a>
-    <a href="Principal/Backoffice.html">Backoffice</a>
-    <a href="Principal/Mobile.html">Mobile</a>
+    <a class="Inicio" href="../index.html">Inicio</a>
+    <a href="../Backend/Backend.html">Backend</a>
+    <a href="../Principal/Backoffice.html">Backoffice</a>
+    <a href="../Principal/Mobile.html">Mobile</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
 </div>
 
+<div class="w3-sidebar w3-bar-block sidebar" style="width:25%;right:0" >
+    <h1 class="w3-bar-item">Microservicios</h1>
+    <a href="Users.html" class="w3-bar-item w3-button sidebutton">Users</a>
+    <a href="Projects.html" class="w3-bar-item w3-button sidebutton">Projects</a>
+    <a href="Middle.html" class="w3-bar-item w3-button sidebutton">Middle</a>
+    <a href="Smartcontracts.html" class="w3-bar-item w3-button sidebutton">Smartcontracts</a>
+</div>
+
 <div class="titlePrin">
-    <h1>SEEDYFIUBA</h1>
+    <h1>Projects</h1>
 </div>
 
 <div class="titleSec">
-    <h2>¿Qué es Seedyfiuba?</h2>
-</div>
-
-<div class="text">
-    <p>Es una plataforma digital, implementada como trabajo práctico para la materia Taller y Programación II</p>
-    <p>Para más información sobre el trabajo que se llevo a cabo, visitar la <a href="https://taller-de-programacion-2.github.io/works/statement/2021/1/tp/enunciado/">página de la materia</a></p>
-    <p>La idea es que esta plataforma facilite a la financiación de proyectos de manera colaborativa crowdfounding</p>
-    <p>En esta página se encuentra toda la documentación del proyecto llevado a cabo.</p>
-    <p>En la barra de navegación superior se pueden explorar las distintas secciones</p>
+    <h2>Repositorio</h2>
 </div>
 
 <div class="titleSec">
-    <h2>¿Quiénes somos?</h2>
+    <p>Para acceder al repositorio, click <a href="https://github.com/seedyfiuba/projects-api">aqui</a></p>
+</div>
+
+<div class="titleSec">
+    <h2>Local</h2>
 </div>
 
 <div class="text">
-    <p>Somos alumnos de la Facultad de Ingeniería de la Universidad de Buenos Aires:</p>
-    <p>Daniel Bizari</p>
-    <p>Daniela Carrero</p>
-    <p>Milagros Cruz</p>
-    <p>Gerónimo Illescas</p>
-    <p>Juntos formamos el grupo 3 de Taller y Programacion II, materia para la cual se desarrolló esta plataforma.</p>
+    <p>Para correr de forma local, seguir las siguientes <a href="https://github.com/seedyfiuba/projects-api#how-to-run-locally">instrucciones</a></p>
 </div>
 
+<div class="titleSec">
+    <h2>Deploy</h2>
+</div>
 
+<div class="text">
+    <p>Para deployar a Heroku, seguir las siguientes <a href="https://github.com/seedyfiuba/projects-api#how-to-deploy-docker-image-to-heroku">instrucciones</a></p>
+</div>
 
+<div class="titleSec">
+    <h2>Documentación sobre la API</h2>
+</div>
 
+<div class="titleSec">
+    <p>Para acceder a la documentación de la API, click </p>
+</div>
 
 <script>
     function myFunction() {
