@@ -24,9 +24,18 @@
 
     .text {
         text-align: center;
-        color: #39395f;
+        color: #183a1d;
         font-size: medium;
         font-weight: bold;
+    }
+
+    .sidebar {
+        padding-left: 580px;
+        color: #183a1d;
+    }
+
+    .sidebutton{
+        color: #183a1d;
     }
 
     .topnav {
@@ -81,23 +90,28 @@
 <div class="topnav" id="myTopnav">
     <a class="Inicio" href="../index.html">Inicio</a>
     <a href="../Backend/Backend.html">Backend</a>
-    <a href="Backoffice.html">Backoffice</a>
+    <a href="../Backoffice/Backoffice.html">Backoffice</a>
     <a href="../Mobile/Mobile.html">Mobile</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
 </div>
 
-<div class="titlePrin">
-    <h1>BACKOFFICE</h1>
+<div class="w3-sidebar w3-bar-block sidebar" style="width:25%;right:0" >
+    <h1 class="w3-bar-item" style="padding-left: 60px">Menú</h1>
+    <a href="Home.html" class="w3-bar-item w3-button sidebutton">Home</a>
+    <a href="Users.html" class="w3-bar-item w3-button sidebutton">Users</a>
+    <a href="Projects.html" class="w3-bar-item w3-button sidebutton">Projects</a>
+    <a href="Servers.html" class="w3-bar-item w3-button sidebutton">Servers</a>
 </div>
 
-<div class="titleSec">
-    <h2></h2>
+<div class="titlePrin">
+    <h1>Projects</h1>
 </div>
 
 <div class="text">
-    <p></p>
+    <p>Se pueden visualizar los datos de los proyectos</p>
+    <img src="../Images/Backoffice/historicoProyectos.png">
 </div>
 
 

@@ -26,16 +26,6 @@
         text-align: center;
         color: #183a1d;
         font-size: medium;
-        font-weight: bold;
-    }
-
-    .sidebar {
-        padding-left: 580px;
-        color: #183a1d;
-    }
-
-    .sidebutton{
-        color: #183a1d;
     }
 
     .topnav {
@@ -83,6 +73,28 @@
             text-align: left;
         }
     }
+    .vertical-menu {
+        text-align: center;
+        width: 200px;
+        padding-left: 600px;
+    }
+
+    .vertical-menu a {
+        background-color: #416a59;
+        color: antiquewhite;
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+    }
+
+    .vertical-menu a:hover {
+        background-color: #ccc;
+    }
+
+    .vertical-menu a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
 </style>
 
 <body>
@@ -97,33 +109,46 @@
     </a>
 </div>
 
-<div class="w3-sidebar w3-bar-block sidebar" style="width:25%;right:0" >
-    <h1 class="w3-bar-item" style="padding-left: 50px">Pantallas</h1>
-    <a href="Emprendedor.html" class="w3-bar-item w3-button sidebutton">Emprendedor</a>
-    <a href="Patrocinador.html" class="w3-bar-item w3-button sidebutton">Patrocinador</a>
-    <a href="Veedor.html" class="w3-bar-item w3-button sidebutton">Veedor</a>
-</div>
-
 <div class="titlePrin">
-    <h1>Patrocinador</h1>
-</div>
-
-<div class="titleSec">
-    <h2>Proyectos</h2>
+    <h1>BACKOFFICE</h1>
 </div>
 
 <div class="text">
-    <p>Como patrocinador quiero poder buscar proyectos para patrocinar</p>
-    <img src="../Images/Mobile/buscadorProyectosPatrocinador.jpg">
+    <p style="font-weight: bold">En esta sección se incluye la documentación referida al backoffice.</p>
 </div>
 
 <div class="titleSec">
-    <h2>Patrocinios</h2>
+    <h2>Login</h2>
 </div>
 
 <div class="text">
-    <p>Como patrocinador quiero poder ver los proyectos que estoy patrocinando</p>
-    <img src="../Images/Mobile/misPatrocinios.jpg">
+    <p>Los administradores pueden loguearse en la pantalla de inicio</p>
+    <img src="../Images/Backoffice/LoginBackoffice.png">
+</div>
+
+<div class="titleSec">
+    <h2>Menú principal</h2>
+</div>
+
+<div class="text">
+    <p>En el menú se pueden elegir distintas opciones</p>
+    <p>La primera, Home, corresponde a las metricas de usuarios, proyectos y transacciones</p>
+    <p>La segunda, users, corresponde a los datos de los usuario</p>
+    <p>La tercera, projects, corresponde a los datos de los proyectos</p>
+    <p>La cuarta, servers, corresponde a los datos de los servidores</p>
+    <img src="../Images/Backoffice/MenuBackoffice.png">
+</div>
+
+
+<div class="titleSec">
+    <h2>Opciones del menú</h2>
+</div>
+
+<div class="vertical-menu">
+    <a href="Home.html">Home</a>
+    <a href="Users.html">Users</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Servers.html">Servers</a>
 </div>
 
 <script>
