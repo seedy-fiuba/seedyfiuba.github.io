@@ -26,16 +26,6 @@
         text-align: center;
         color: #183a1d;
         font-size: medium;
-        font-weight: bold;
-    }
-
-    .sidebar {
-        padding-left: 580px;
-        color: #183a1d;
-    }
-
-    .sidebutton{
-        color: #183a1d;
     }
 
     .topnav {
@@ -83,6 +73,28 @@
             text-align: left;
         }
     }
+    .vertical-menu {
+        text-align: center;
+        width: 200px;
+        padding-left: 600px;
+    }
+
+    .vertical-menu a {
+        background-color: #416a59;
+        color: antiquewhite;
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+    }
+
+    .vertical-menu a:hover {
+        background-color: #ccc;
+    }
+
+    .vertical-menu a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
 </style>
 
 <body>
@@ -97,64 +109,46 @@
     </a>
 </div>
 
-<div class="w3-sidebar w3-bar-block sidebar" style="width:25%;right:0" >
-    <h1 class="w3-bar-item">Microservicios</h1>
-    <a href="Users.html" class="w3-bar-item w3-button sidebutton">Users</a>
-    <a href="Projects.html" class="w3-bar-item w3-button sidebutton">Projects</a>
-    <a href="Middle.html" class="w3-bar-item w3-button sidebutton">Middle</a>
-    <a href="Smartcontracts.html" class="w3-bar-item w3-button sidebutton">Smartcontracts</a>
-</div>
-
 <div class="titlePrin">
-    <h1>Smartcontracts</h1>
-</div>
-
-<div class="titleSec">
-    <h2>Repositorio</h2>
-</div>
-
-<div class="titleSec">
-    <p>Para acceder al repositorio, click <a href="https://github.com/seedyfiuba/smart-contracts-api">aquí</a></p>
-</div>
-
-<div class="titleSec">
-    <h2>Instalación</h2>
+    <h1>BACKOFFICE</h1>
 </div>
 
 <div class="text">
-    <p>Para instalar el proyecto, seguir las siguientes <a href="https://github.com/seedyfiuba/smart-contracts-api#installation">instrucciones</a></p>
+    <p style="font-weight: bold">En esta sección se incluye la documentación referida al backoffice.</p>
 </div>
 
 <div class="titleSec">
-    <h2>Deploy</h2>
+    <h2>Login</h2>
 </div>
 
 <div class="text">
-    <p>Para deployar, seguir las siguientes <a href="https://github.com/seedyfiuba/smart-contracts-api#deployment">instrucciones</a></p>
+    <p>Los administradores pueden loguearse en la pantalla de inicio</p>
+    <img src="../Images/Backoffice/LoginBackoffice.png">
 </div>
 
 <div class="titleSec">
-    <h2>Correr proceso</h2>
+    <h2>Menú principal</h2>
 </div>
 
 <div class="text">
-    <p>Para correr el proceso, seguir las siguientes <a href="https://github.com/seedyfiuba/smart-contracts-api#start-process">instrucciones</a></p>
+    <p>En el menú se pueden elegir distintas opciones</p>
+    <p>La primera, Home, corresponde a las metricas de usuarios, proyectos y transacciones</p>
+    <p>La segunda, users, corresponde a los datos de los usuario</p>
+    <p>La tercera, projects, corresponde a los datos de los proyectos</p>
+    <p>La cuarta, servers, corresponde a los datos de los servidores</p>
+    <img src="../Images/Backoffice/MenuBackoffice.png">
 </div>
 
-<div class="titleSec">
-    <h2>Documentación sobre la API</h2>
-</div>
 
 <div class="titleSec">
-    <p>Para ver algunos ejemplos de uso, click <a href="https://github.com/seedyfiuba/smart-contracts-api#available-endpoints">aquí</a></p>
+    <h2>Opciones del menú</h2>
 </div>
 
-<div class="titleSec">
-    <h2>Otras funcionalidades</h2>
-</div>
-
-<div class="titleSec">
-    <p>Para ver qué otros comandos se pueden correr, click <a href="https://github.com/seedyfiuba/smart-contracts-api#usage">aquí</a></p>
+<div class="vertical-menu">
+    <a href="Home.html">Home</a>
+    <a href="Users.html">Users</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Servers.html">Servers</a>
 </div>
 
 <script>
